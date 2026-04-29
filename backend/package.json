@@ -5,8 +5,9 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon server.js",
-    "start": "node server.js"
+  "dev": "vite",
+  "build": "npx vite build",
+  "preview": "vite preview"
   },
   "dependencies": {
     "cors": "^2.8.5",
